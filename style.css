@@ -213,3 +213,94 @@ button{
 
 /* Portfolio Section */
 
+.portfolio-section{
+    margin-top: 90px;
+}
+
+.portfolio-text h3{
+    font-size: 24px;
+    color: #FF0000;
+}
+.portfolio-text h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.portfolio-text p{
+    color: #070211;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.shopping-card{
+    margin-top: 40px;
+}
+
+.shopping-card img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Subscribe section */
+
+.subscribe-section{
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.07));
+    margin-top: 80px;
+    text-align: center;
+    height: 600px;
+}
+
+.text-area{
+    position: relative;
+    top: 20%;
+}
+
+.text-area h1{
+    font-size: 48px;
+    padding: 20px 0px;
+}
+.text-area p{
+    color: #070211;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.search-box{
+    position: relative;
+    bottom: -25%;
+}
+
+.search-box input{
+    padding: 25px 100px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search-box .btn{
+    padding: 20px 20px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FF0000;
+    color: white;
+}
+
+footer{
+    margin-top: 80px;
+    background-color: #070211;
+    height: 600px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 80px;
+}
+.contact-icon{
+   
+}
