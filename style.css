@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.hero-section{
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-section h1{
+    text-align: center;
+    color: white;
+    font-size: 72px;
+    line-height: 95px;
+    font-weight: bold;
+    position: relative;
+    top: 35%;
+}
+
+.hero-section h3{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+    top: 30%;
+}
+.offer-section{
+    margin-top: 80px;
+    text-align: center;
+}
+.offer-section h1{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    letter-spacing: 5px;
+}
+.offer-section p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #FF0000;
+    margin-top: 30px;
+}
+.offer-section h2{
+    font-weight: bold;
+    font-size: 48px;
+    color: #070211;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+/* Party section */
+.party-section{
+    height: 600px;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(images/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+
+.party-text{
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+.party-text h1{
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 88px;
+    letter-spacing: 11%;
+}
+
+.party-text p{
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 30px;
+    padding-top: 15px;
+}
+
+button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+}
+
+/* location section */
+
+.location-section{
+    height: 482px;
+    background: linear-gradient(to bottom, rgba(255, 153, 0, 0.10), rgba(255, 153, 0, 0.02));
+    margin-top: 80px;
+}
+.location-text{
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+.location-text span{
+    color: #FF0000;
+}
+.location-text h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 58px;
+} 
+
+
+/* Invite Section */
+
+.invite-section{
+    margin-top: 80px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.invite-img{
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.invite-text-1{
+    margin-top: 60px;
+    margin-right: 80px;
+}
+.invite-text-1 h3{
+    font-size: 24px;
+    color: #FF0000;
+}
+
+.invite-text-1 h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.invite-text-1 p{
+    color: #070211;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.invite-text-2{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.invite-text-2 h1{
+    font-size: 48;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 20px;
+    
+}
+.invite-text-2 p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #070211;
+    margin-bottom: 40px;
+}
+
+/* Holidays Section */
+
+.holidays-section{
+    margin-top: 100px;
+
+}
+
+.holidays-text{
+    text-align: center;
+}
+
+.holidays-text h3{
+    font-size: 24px;
+    color: #070211;
+}
+.holidays-text h1{
+    font-size: 82px;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+.holidays-text p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #070211;
+}
+.img-1 img{
+    position: relative;
+    left: 900px;
+    top: 500px;
+}
+.img{
+    position: relative;
+}
+.img-2{
+    z-index: 1;
+    top: 230px;
+}
+
+/* Portfolio Section */
+
